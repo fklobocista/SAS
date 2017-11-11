@@ -1,0 +1,5 @@
+title "Car Inventory by Origin";
+proc freq data=sashelp.cars;
+   tables Origin / nocum;
+run;
+title;
